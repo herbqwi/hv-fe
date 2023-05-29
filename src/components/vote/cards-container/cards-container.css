@@ -1,0 +1,10 @@
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cards-container .card {
+    margin: 0px 20px;
+}

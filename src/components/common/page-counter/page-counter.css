@@ -1,0 +1,35 @@
+.page-counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+}
+
+.page-counter .button:hover {
+    background-color: rgb(244, 244, 244);
+}
+
+.page-counter .button:active {
+    background-color: rgb(241, 241, 241);
+    scale: 0.97;
+}
+
+.page-counter .button:nth-child(even):hover {
+    transform: scale(1.1);
+}
+
+.page-counter .button:nth-child(odd):hover {
+    transform: scale(1.15);
+}
+
+.page-counter .button:nth-child(3):hover {
+    transform: scale(1.05);
+    background-color: white;
+    cursor: default;
+}
+
+.page-counter .button:disabled:hover {
+    scale: 1;
+    cursor: default;
+    background-color: white;
+}

@@ -1,0 +1,27 @@
+.fade-up {
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.fade-in {
+    opacity: 0;
+}
+
+.fade-in-rotate-left {
+    opacity: 0;
+    rotate: -3deg;
+}
+
+.fade-in-rotate-right {
+    opacity: 0;
+    rotate: 2deg;
+}
+
+.scale {
+    opacity: .6;
+    scale: 0.9
+}
+
+.hidable {
+    transition: .5s all;
+}

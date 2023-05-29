@@ -1,0 +1,14 @@
+.input-group .ant-space {
+  height: 100%;
+  width: 100%;
+}
+
+.input-group .ant-space .ant-space-item {
+  height: 100%;
+  width: 100%;
+}
+
+.input-group .ant-space .ant-space-item .ant-picker {
+  height: 100%;
+  width: 100%;
+}

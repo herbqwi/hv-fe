@@ -1,0 +1,14 @@
+.management-page {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.management-page .management-container {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin-top: 50px;
+  /* color: #0bf4c92e; */
+}

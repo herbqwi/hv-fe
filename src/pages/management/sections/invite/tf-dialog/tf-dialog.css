@@ -1,0 +1,10 @@
+.tf {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start !important;
+  margin-top: 20px;
+}
+
+.tf .button:last-child {
+  margin-left: 10px;
+}

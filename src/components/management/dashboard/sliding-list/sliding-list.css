@@ -1,0 +1,119 @@
+.sliding-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 100px;
+  background-color: white;
+  border: 1px solid rgb(174, 174, 174);
+  border-radius: 7px;
+  margin-top: 25px;
+}
+
+.sliding-list-container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  width: 95%;
+  border-bottom: 1px solid rgb(174, 174, 174);
+}
+
+.good {
+  margin-top: 5px;
+}
+
+.sliding-list-container .header p {
+  margin-left: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sliding-list-container .header .svg-inline--fa {
+  margin-right: 2px;
+}
+
+.sliding-list-container .header p .svg-inline--fa
+ {
+  color: rgb(212, 0, 0);
+}
+
+.sliding-list-container .header .extend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  transition: .3s all;
+  outline: none;
+  border: none;
+}
+
+.sliding-list-container .header .extend:active {
+  scale: .88;
+}
+
+.sliding-list-container .header .extend:disabled:active {
+  scale: 1;
+}
+
+.sliding-list-container .header .extend>* {
+  font-size: 17px;
+  margin-top: 2px;
+  margin-left: 2px;
+  transition: .4s all;
+}
+
+.sliding-list-container .header .extend.active>* {
+  rotate: 180deg;
+}
+
+.sliding-list-container .body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.sliding-list-container ul {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.sliding-list-container ul li {
+  text-align: left;
+  width: 95%;
+  background-color: rgb(253, 253, 253);
+  padding: 10px 12px;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  border: 1px solid rgb(174, 174, 174);
+  cursor: pointer;
+}
+
+.sliding-list-container .load-more-icon {
+  padding-bottom: 10px;
+  padding-top: 0px;
+  margin-top: -2px;
+  transition: .3s all;
+  cursor: pointer;
+  width: 98%;
+}
+
+.sliding-list-container .load-more-icon:hover {
+  transform: translateY(2px);
+}
+
+.sliding-list-container .load-more-icon:active {
+  scale: .9;
+}

@@ -1,0 +1,46 @@
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 49.5%;
+  background-color: white;
+  padding: 15px 18px;
+  border-radius: 7px;
+  border: 1px solid rgb(174, 174, 174);
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.chart-container .header {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.chart-container .header > * {
+  color: rgb(55, 55, 55);
+  /* background-color: rgba(255, 193, 99, 0.2) */
+}
+
+.chart-container .header h1 {
+  font-size: 15px;
+  border-bottom: 1px dashed rgb(48, 48, 48);
+  font-weight: 600;
+  margin-left: 3px;
+}
+
+.chart-container .header p {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-left: 3px;
+}
+
+.chart-container .header h2 {
+  font-size: 12px;
+  border-bottom: 1px dashed rgb(48, 48, 48);
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 3px;
+}

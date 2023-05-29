@@ -1,0 +1,21 @@
+.search-bar {
+    position: relative;
+    width: fit-content;
+}
+
+.search-bar input {
+    width: 160px;
+    height: 23px;
+    padding: 5px 0px;
+    padding-left: 35px;
+    border-radius: 6px;
+    border: 1px solid rgb(174, 174, 174);
+    outline: none;
+}
+
+.search-bar .svg-inline--fa {
+    top: 11px;
+    left: 10px;
+    position: absolute;
+    z-index: 1;
+}

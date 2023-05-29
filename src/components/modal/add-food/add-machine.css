@@ -1,0 +1,35 @@
+.add-machine-modal .input-group {
+  margin-top: 30px !important;
+}
+
+.add-machine-modal > p {
+  margin-top: 20px;
+  margin-bottom: -23px;
+}
+
+.searching {
+  margin-top: 15px;
+  margin-bottom: -30px;
+  font-size: 15px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.machine-bars-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  max-height: 350px;
+  overflow-y: scroll;
+}
+
+.machine-bars-container p {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,31 @@
+.completed-votes {
+  display: flex;
+  flex-direction: column;
+}
+
+.completed-votes .verify-vote-card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid var(--outer-border);
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.completed-votes .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.completed-votes h1 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.completed-votes p {
+  font-size: 13px;
+  font-weight: 400;
+}

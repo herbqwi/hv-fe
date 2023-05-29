@@ -1,0 +1,136 @@
+.food-table-container .header, .food-table-container .footer {
+    display: flex;
+    align-items: center;
+}
+
+.food-table-container .header {
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.food-table-container .svg-inline--fa {
+    padding-right: 3px;
+}
+
+.food-table-container .header .button {
+    background-color: rgb(29, 163, 225);
+    color: white;
+    font-weight: 700;
+}
+
+.food-table-container .header .button:hover {
+    background-color: rgb(29, 158, 225);
+    scale: 1.03;
+}
+
+.food-table-container .header .button:active {
+    background-color: rgb(26, 154, 217);
+    scale: 1;
+}
+
+.food-table-container .footer {
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 6px;
+}
+
+.table-container button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.table-container table {
+    border-collapse: separate;
+    border-spacing: 0;
+    padding: 2px 5px;
+    margin-bottom: 7px;
+}
+
+.table-container table * {
+    text-align: center;
+}
+
+.table-container td {
+    width: 100px;
+    padding: 8px 0px;
+}
+
+.table-container td p {
+    width: 100px;
+    overflow: hidden;
+    transition: .2s all;
+    border-radius: 3px;
+    padding: 1px;
+}
+
+.table-container tbody td:hover p {
+    cursor: pointer;
+    background-color: rgb(221, 221, 221);
+}
+
+.table-container thead td {
+    border-bottom: 1px solid rgb(225, 225, 225);
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+.table-container tbody td {
+    padding: 20px 10px;
+    font-size: 14px;
+}
+
+.table-container tbody td:nth-child(3) {
+    padding: 5px 10px;
+}
+
+.table-container tbody td:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.table-container tbody td:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.table-container tbody tr:nth-child(even) td {
+    background-color: #f2f3f5;
+}
+
+.table-container tbody tr td:nth-child(6) button {
+    cursor: pointer;
+    transition: .2s all;
+}
+
+.table-container tbody tr td:nth-child(6) button:first-child {
+    margin-right: 7px;
+    margin-left: -3px;
+}
+
+.table-container tbody tr td:nth-child(6) button:hover {
+    color: rgb(255, 179, 39);
+    scale: 1.07;
+}
+
+.table-container tbody tr td:nth-child(6) button:active {
+    color: rgb(238, 166, 33);
+    scale: 1;
+}
+
+.table-container tbody tr td:nth-child(6) button:first-child:hover {
+    color: rgb(255, 77, 0);
+}
+
+.table-container tbody tr td:nth-child(6) button:first-child:active {
+    color: rgb(229, 69, 0);
+}

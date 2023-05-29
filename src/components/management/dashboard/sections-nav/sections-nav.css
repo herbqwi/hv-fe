@@ -1,0 +1,120 @@
+.sections-nav-container {
+  position: relative;
+  background-color: transparent;
+  border: 1px solid rgb(174, 174, 174);
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  transition: .3s all;
+  overflow: hidden;
+}
+
+.sections-nav-container .normal-menu {
+  position: relative;
+}
+
+.sections-nav-container .machines-menu {
+  position: absolute;
+  top: 15px;
+  left: calc(100% + 7px);
+  height: 190px;
+}
+
+.sections-nav-container .machines-menu .scrollable::-webkit-scrollbar {
+  display: none;
+}
+
+.sections-nav-container .machines-menu .scrollable {
+  position: relative;
+  overflow-y: scroll;
+  height: 152px;
+  padding-right: 3px;
+}
+
+.sections-nav-container .nav {
+  transition: .2s all;
+}
+
+.sections-nav-container.machine .nav {
+  transform: translateX(-107%);
+}
+
+.sections-nav-container .section {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  width: 200px;
+  border-radius: 7px;
+  padding: 7px 10px;
+  margin-bottom: 4px;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(8, 5, 5);
+  transition: .3s all;
+  cursor: pointer;
+}
+
+.sections-nav-container .section .error {
+  width: 20px;
+  height: 100%;
+  background-color: #f466615c;
+  text-align: center;
+  border-radius: 2px;
+  font-weight: 400;
+}
+
+.sections-nav-container .section.invite {
+  background-color: #b165e05c;
+}
+
+.sections-nav-container .section.invite:hover {
+  color: rgb(48, 38, 53);
+  background-color: #7e3ea55c;
+}
+
+.sections-nav-container .section.invite.selected {
+  color: rgb(48, 38, 53);
+  background-color: #7e3ea55c;
+}
+
+.sections-nav-container hr {
+  border-top: 1px solid #d0d0d0;
+  margin: 15px 0px;
+  margin-bottom: 15px;
+}
+
+.sections-nav-container .section.logout {
+  background-color: #f466615c;
+  color: #522322;
+}
+
+.sections-nav-container .section.logout:hover {
+  background-color: #f466617c;
+}
+
+.sections-nav-container .section.logout:active {
+  background-color: #f466618d;
+}
+
+.sections-nav-container .section:last-child {
+  margin-bottom: 0px;
+}
+
+.sections-nav-container .section:hover {
+  background-color: #f4a3615c;
+}
+
+.sections-nav-container .section:active {
+  background-color: #f4a3617a;
+}
+
+.sections-nav-container .section.selected {
+  background-color: #f4a36144;
+  color: #513620;
+}
+
+.sections-nav-container .svg-inline--fa {
+  margin-right: 10px;
+}

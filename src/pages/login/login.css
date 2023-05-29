@@ -1,0 +1,23 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+}
+
+.login-page h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.login-page p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.login-page button {
+  font-family: "Montserrat", sans-serif;
+}
+
+.login-page .note {
+  font-family: "Montserrat", sans-serif;
+}

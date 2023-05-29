@@ -1,0 +1,13 @@
+.room-setup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.room-setup-container {
+  margin-top: 100px;
+  width: 65%;
+  border-bottom: 1px solid rgb(75, 75, 75);
+  padding-bottom: 4px;
+}

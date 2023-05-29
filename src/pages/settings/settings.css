@@ -1,0 +1,53 @@
+.settings-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.settings-page .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  widtH: 65%;
+}
+
+.settings-page .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--outer-border);
+}
+
+.settings-page .header .inputs-group .icon-button-container {
+  margin-left: 10px;
+}
+
+.settings-page .header h1 {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(62, 62, 62);
+}
+
+.settings-page .header h2 {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(113, 113, 113);
+}
+
+.settings-page .body {
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+  margin-top: 40px;
+}
+
+.settings-page .section-content {
+  width: 75%;
+}
+
+.section-content section {
+  width: 100%;
+}

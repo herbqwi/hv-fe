@@ -1,0 +1,8 @@
+.create-election .content .input-group {
+  width: 60% !important;
+  margin-bottom: 15px;
+}
+
+.create-election .content .input-group input {
+  width: 100%;
+}

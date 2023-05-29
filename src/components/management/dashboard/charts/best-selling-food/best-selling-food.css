@@ -1,0 +1,34 @@
+.best-selling-food {
+  list-style: none;
+  width: 100%;
+}
+
+.best-selling-food li {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  background-color: rgb(253, 253, 253);
+  border: 1px solid rgb(174, 174, 174);
+  border-radius: 7px;
+  cursor: pointer;
+  margin-bottom: 7px;
+  overflow: hidden;
+  padding: 8px 10px;
+}
+
+.best-selling-food li .food-info {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.best-selling-food li .svg-inline--fa {
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+}
+
+.best-selling-food img {
+  width: 50px;
+}

@@ -1,0 +1,47 @@
+.my-details .profile-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.my-details .profile-info .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.122);
+  background-color: white;
+}
+
+.my-details .profile-info>img {
+  width: 65px;
+  height: 65px;
+  border-radius: 100px;
+  background-color: rgb(251, 251, 251);
+  border: 1px solid rgba(0, 0, 0, 0.052);
+}
+
+.my-details .profile-info .details {
+  margin-left: 10px;
+  width: 150px;
+}
+
+.my-details .profile-info .details h1 {
+  color: rgb(47, 47, 47);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.my-details .profile-info .details h2 {
+  color: rgb(118, 118, 118);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.my-details .button {
+  margin-left: 5px;
+}

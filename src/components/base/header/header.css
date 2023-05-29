@@ -1,0 +1,42 @@
+.header-container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 300px;
+    height: fit-content;
+    padding-top: 15px;
+}
+
+.header-container.home {
+    background-color: rgba(0, 0, 0, 0.255);
+    background: linear-gradient(rgba(0, 0, 0, 0.65), transparent);
+    padding-bottom: 15px;
+}
+
+.header-container.home .header-button {
+    color: white;
+}
+
+.header-container.home .logo-container p {
+    color: rgb(194, 194, 194);
+}
+
+.header-container .left-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-container .right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-container .left-nav .logo-container {
+    margin-right: 20px;
+}
+
+.header-container .svg-inline--fa {
+    margin-left: -2px;
+    margin-right: 2px;
+}

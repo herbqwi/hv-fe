@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/232dfa9b-a8c9-4aaa-9a90-e372eeaa4440/resourceGroups/hvoting_group/providers/Microsoft.Web/sites/hvoting",
+  "appService.deploySubpath": "."
+}

@@ -1,0 +1,35 @@
+.election-info {
+  position: relative;
+  overflow: hidden;
+}
+
+.election-info .content {
+  width: 100%;
+}
+
+.election-info .content>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.election-info .content>div h1.private {
+  color: rgb(116, 0, 0);
+}
+
+.election-info .content>div h1.public {
+  color: rgb(60, 116, 0);
+}
+
+.election-info .content>div .button {
+  margin-top: 15px;
+}
+
+.election-info .lock {
+  position: absolute;
+  width: 200px;
+  left: -40px;
+  bottom: -140px;
+  opacity: .08;
+}

@@ -1,0 +1,139 @@
+:root {
+    --success: #57cc99;
+    --failed: #d4454f;
+    --notice: #8e9aaf;
+    
+    --success-font: #48ac81;
+    --failed-font: #b43740;
+    --notice-font: #5b6678;
+}
+
+@keyframes to-zero {
+    0% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0px;
+    }
+}
+
+.notification {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 340px;
+    min-height: 95px;
+    background-color: white;
+    border-radius: 10px;
+    transition: .2s all;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.25);
+}
+
+.notification:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 3px;
+    bottom: 0px;
+    animation: to-zero 10s forwards;
+}
+
+.notification:has(.fa-check):before {
+    background-color: var(--success);
+}
+
+.notification:has(.fa-xmark):before {
+    background-color: var(--failed);
+}
+
+.notification:has(.fa-exclamation):before {
+    background-color: var(--notice);
+}
+
+.notification:hover {
+    background-color: rgb(250, 250, 250);
+    transform: translateY(-2px);
+}
+
+.notification:active {
+    background-color: rgb(245, 245, 245);
+    transform: translateY(1px);
+}
+
+.notification:has(.fa-check) {
+    border-left: 5px solid var(--success);
+}
+
+.notification:has(.fa-xmark) {
+    border-left: 5px solid var(--failed);
+}
+
+.notification:has(.fa-exclamation) {
+    border-left: 5px solid var(--notice);
+}
+
+.notification .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.notification .icon:has(.fa-check) {
+    background-color: var(--success);
+}
+
+.notification .icon:has(.fa-xmark) {
+    background-color: var(--failed);
+}
+
+.notification .icon:has(.fa-exclamation) {
+    background-color: var(--notice);
+}
+
+.notification .content {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 7px;
+    padding: 15px 0px;
+    width: 70%;
+    margin-left: 20px;
+}
+
+.notification .content p {
+    text-align: left;
+}
+
+.notification .content p:first-child {
+    position: relative;
+    font-weight: 500;
+    font-size: 20px;
+    bottom: 5px;
+}
+
+.notification:has(.fa-check) .content p:first-child {
+    color: var(--success-font)
+}
+
+.notification:has(.fa-xmark) .content p:first-child {
+    color: var(--failed-font)
+}
+
+.notification:has(.fa-exclamation) .content p:first-child {
+    color: var(--notice-font)
+}
+
+.notification .content p:last-child {
+    position: relative;
+    bottom: 2px;
+    font-size: 17px;
+}

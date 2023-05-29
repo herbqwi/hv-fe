@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+
+.header-button {
+    margin-left: 10px;
+    padding: 6px 14px;
+    border-radius: 5px;
+    transition: .2s all;
+    cursor: pointer;
+    height: fit-content;
+    margin-top: 2px;
+    font-weight: 700;
+}
+
+.header-button:hover {
+    background-color: rgba(0, 0, 0, 0.059);
+}
+
+.header-button:active {
+    background-color: rgba(0, 0, 0, 0.095);
+}
+
+.header-button.selected {
+    background-color: var(--header-button);
+    pointer-events: none;
+}
+
+.header-button.selected:hover {
+    background-color: var(--header-button-hover);
+}
+
+.header-button.selected:active {
+    background-color: var(--header-button-active);
+}
+
+.header-button.inverted {
+    color: white;
+    background-color: black;
+}
+
+.header-button.inverted:hover {
+    background-color: rgb(35, 35, 35);
+}
+
+.header-button.inverted.selected {
+    background-color: black;
+}

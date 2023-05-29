@@ -1,0 +1,26 @@
+.section-container {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.056);
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.inputs-group {
+  display: flex;
+}
+
+.section-container .inputs-group {
+  width: 100%;
+}
+
+.section-container>h1 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 6px;
+  margin-bottom: 13px;
+}
+
+.section-container .inputs-group:not(:first-child) {
+  margin-top: 10px;
+}

@@ -1,0 +1,54 @@
+.management-page .management-container .contents {
+  width: 76%;
+}
+
+.management-page .management-container .info-cards-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.management-page .management-container .info-cards-container .info-card-container:nth-child(2) img {
+  scale: 1.7;
+  right: 0px;
+}
+
+.management-page .management-container .info-cards-container .info-card-container:nth-child(3) img {
+  scale: 1.7;
+  right: 0px;
+  rotate: 30deg
+}
+
+.management-container .header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 8px;
+  margin-top: 1px;
+}
+
+.management-container .header .callout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.management-container .header .callout p {
+  font-weight: 600;
+}
+
+.management-container .header .callout p:first-child {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.534);
+}
+
+.management-container .header .callout p:last-child {
+  font-size: 21px;
+}
+
+.management-container .charts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 13px;
+}

@@ -1,0 +1,45 @@
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  width: 240px;
+  transition: all 0.3s ease-out;
+  text-align: center;
+}
+
+.card .profile-image {
+  margin-top: 25px;
+}
+
+.vote-page input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
+.card .h1 {
+  color: rgb(72, 72, 72);
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card .p {
+  margin-top: 13px;
+  font-size: 14px;
+}
+
+.card button {
+  margin: 30px 0px;
+}
+
+.card.selected .overlay {
+    transform: scale(5) translateZ(0);
+  }
+
+.card.selected {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+}

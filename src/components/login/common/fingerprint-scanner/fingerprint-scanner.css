@@ -1,0 +1,33 @@
+.fingerprint-scanner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.105);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transition: .5s all;
+}
+
+.fingerprint-scanner-container > .fingerprint-scanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    z-index: 2;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.fingerprint-scanner-container img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}

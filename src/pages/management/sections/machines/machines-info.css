@@ -1,0 +1,57 @@
+.contents .ct {
+  display: flex;
+  flex-direction: row;
+}
+
+.contents .ct>* {
+  margin-left: 10px;
+}
+
+.contents .ct .svg-inline--fa {
+  margin-right: 5px;
+}
+
+.contents img.lock {
+  position: absolute;
+  height: 300px;
+  opacity: 0.06;
+  left: -100px;
+  top: 18px;
+  pointer-events: none;
+}
+
+.key-lock {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.key-lock>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.key-lock h1 {
+  font-size: 25px;
+}
+
+.key-lock h1.private {
+  color: rgb(116, 0, 0);
+}
+
+.key-lock h1.public {
+  color: rgb(15, 116, 0);
+}
+
+.key-lock h1 {
+  font-size: 25px;
+}
+
+.key-lock .button {
+  margin-top: 20px;
+}

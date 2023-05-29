@@ -1,0 +1,13 @@
+/* .input-group:has(.ant-select) .ant-select-selection-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group:has(.ant-select) .ant-select-selection-item-content {
+  height: 20px;
+} */
+
+.ant-form-item {
+  width: 100%;
+}

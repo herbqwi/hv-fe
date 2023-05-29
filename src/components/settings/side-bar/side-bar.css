@@ -1,0 +1,32 @@
+ul.side-bar {
+  list-style: none;
+  color: rgb(110, 110, 110);
+  font-weight: 600;
+  font-size: 14px;
+  width: 145px;
+}
+
+ul.side-bar li {
+  margin-bottom: 17px;
+  padding: 8px;
+  border-radius: 3px;
+  transition: .3s all;
+  border-left: 4px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+ul.side-bar li:hover {
+  background-color: var(--button-hover);
+}
+
+ul.side-bar li:active {
+  background-color: var(--button-active);
+}
+
+ul.side-bar li.selected {
+  color: rgb(71, 71, 71);
+  background-color: var(--button-selected);
+  border-left: 4px solid rgba(0, 0, 0, 0.315);
+  cursor: default;
+  pointer-events: none;
+}

@@ -1,0 +1,162 @@
+.pdf-content {
+    width: 800px;
+}
+
+.pdf-container {
+    position: absolute;
+    opacity: 0;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.pdf-container>* {
+    width: 800px;
+}
+
+.pdf-container .header {
+    background-color: #eee;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pdf-container .header h1 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+}
+
+.pdf-container .header p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pdf-container .body {
+    width: 100%;
+}
+
+.pdf-container .sub-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #90e0ef;
+    font-size: 20px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.pdf-container .sub-title:not(:first-child) {
+    margin-top: 20px;
+}
+
+.pdf-container .patient-information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pdf-container .patient-information p:first-child {
+    font-weight: 600;
+}
+
+.pdf-container .weekly-meals {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pdf-container .weekly-meals .info-container .table-container {
+    margin-left: 150px;
+}
+
+.pdf-container .weekly-meals .info-container p.note {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    font-weight: 600;
+    margin-left: 160px;
+}
+
+.pdf-container .weekly-meals .info-container p.note:last-child {
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.pdf-container .info-container:not(:first-child) {
+    margin-top: 30px;
+}
+
+.info-container .table-container {
+    max-width: 500px;
+}
+
+.info-container .table-container table tbody tr td:nth-child(0) {
+    width: 180px;
+}
+
+.info-container .table-container table tbody tr td:nth-child(1) {
+    width: 180px;
+}
+
+.info-container .table-container table tbody tr td:nth-child(2) {
+    width: 180px;
+}
+
+.info-container .table-container table tbody tr td:nth-child(3) {
+    width: 180px;
+}
+
+.info-container .table-container table tbody tr td:nth-child(4) {
+    width: 180px;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 6px;
+}
+
+.table-container .action-bar {
+    display: flex;
+    align-items: center;
+    width: 97%;
+    background-color: #f2f3f5;
+    padding: 8px 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.table-container table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 98%;
+    margin-bottom: 7px;
+    text-align: left;
+}
+
+.table-container td {
+    text-align: center !important;
+    padding: 8px 0px;
+}
+
+.table-container thead td {
+    text-align: center;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    padding: 10px 0px;
+    width: 15px;
+    padding-top: 13px;
+    font-weight: 700;
+    font-size: 15px;
+}

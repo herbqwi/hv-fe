@@ -1,0 +1,25 @@
+.icon-button-container button {
+    background-color: white;
+    padding: 7px 12px;
+    cursor: pointer;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 6px;
+    transition: .1s all;
+    font-size: 14px;
+    transition: .2s all;
+}
+
+.icon-button-container button .svg-inline--fa {
+    margin-right: 2px;
+    margin-left: -1px;
+}
+
+.icon-button-container button:hover {
+    scale: 1.07;
+    background-color: rgb(245, 245, 245);
+}
+
+.icon-button-container button:active {
+    scale: 1;
+    background-color: rgb(238, 238, 238);
+}

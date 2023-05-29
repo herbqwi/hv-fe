@@ -1,0 +1,128 @@
+.my-elections .election-invitations-container {
+  width: 100%;
+  border: 1px solid var(--outer-border);
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: #111727;
+}
+
+.my-elections .election-info-card.not-approved {
+  border: 1px solid rgba(101, 0, 0, 0.345);
+}
+
+.my-elections .election-info-card.not-approved p.not-approved {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(163, 0, 0);
+}
+
+.my-elections .election-info-card.not-approved .info {
+  cursor: default;
+}
+
+.my-elections .election-info-card .info {
+  cursor: pointer;
+  transition: .3s all;
+}
+
+.my-elections .election-info-card.not-approved:has(.info:hover) {
+  scale: 1;
+}
+
+.my-elections .election-info-card:has(.info:hover) {
+  scale: 1.03;
+}
+
+.my-elections .election-invitations-container>h1 {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.my-elections .election-invitations-container>h2 {
+  color: rgb(180, 180, 180);
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 3px;
+  margin-bottom: 15px;
+}
+
+.my-elections .election-info-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid var(--outer-border);
+  border-radius: 4px;
+  padding: 15px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.my-elections .election-info-card:last-child {
+  margin-bottom: 4px;
+}
+
+.my-elections .election-info-card.invitation {
+  display: flex;
+  width: 100%;
+  border: none;
+  background-color: #27303d;
+  border-radius: 4px;
+}
+
+.my-elections .election-info-card.invitation button {
+  color: rgba(255, 255, 255, 0.84);
+  border: none;
+  border-radius: 3px;
+  height: 33px;
+  margin-top: 5px;
+}
+
+.my-elections .election-info-card.invitation SVG {
+  color: white;
+  margin-right: 4px;
+}
+
+.my-elections .election-info-card.invitation .icon-button-container:first-child button {
+  background-color: #5b8e7d;
+}
+
+.my-elections .election-info-card.invitation .icon-button-container:last-child button {
+  background-color: #bc4b51;
+}
+
+.my-elections .election-info-card.invitation h1 {
+  color: white;
+}
+
+.my-elections .election-info-card.invitation h2 {
+  color: rgb(199, 199, 199);
+}
+
+.my-elections .election-info-card .inputs-group .icon-button-container {
+  margin-left: 10px;
+}
+
+.my-elections .election-info-card h1 {
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  border-bottom: 1px dotted black;
+  width: fit-content;
+}
+
+.my-elections .election-info-card.invitation h1 {
+  border-bottom: none;
+}
+
+.my-elections .election-info-card h2:nth-child(2) {
+  margin-top: 5px;
+}
+
+.my-elections .election-info-card h2 {
+  font-size: 13px;
+  color: gray;
+  font-weight: 500;
+}

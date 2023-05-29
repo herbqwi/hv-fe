@@ -1,0 +1,36 @@
+.icon-container {
+  position: relative;
+  font-size: 20px;
+  overflow: hidden;
+  left: -2px;
+}
+
+.icon-container .svg-inline--fa {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  padding: 5px 0px;
+  padding-right: 2px;
+  transition: .3s all;
+}
+
+.icon-container .svg-inline--fa:nth-child(2) {
+  top: 0px;
+}
+
+.icon-container .svg-inline--fa:nth-child(3) {
+  top: -95%;
+}
+
+.icon-container.active .svg-inline--fa {
+  transform: translateY(100%);
+}
+
+.icon-container .selected {
+
+}
+
+.icon-container .tempelate {
+  position: relative;
+  opacity: 0;
+}

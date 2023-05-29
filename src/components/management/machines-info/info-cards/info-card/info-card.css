@@ -1,0 +1,107 @@
+.machine-info-cards-container .info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(100%/4);
+  height: 100%;
+}
+
+.machine-info-cards-container .info-card .icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  border: 1px solid rgb(174, 174, 174);
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom: 3px;
+  font-size: 18px;
+  font-weight: 100;
+  overflow: hidden;
+  cursor: pointer;
+  transition: .3s all;
+}
+
+.machine-info-cards-container .info-card .icon:active {
+  scale: 0.95;
+}
+
+.machine-info-cards-container .info-card .svg-inline--fa {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: .2s all;
+}
+
+.machine-info-cards-container .info-card .svg-inline--fa:first-child {
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.machine-info-cards-container .info-card .svg-inline--fa:last-child {
+  transform: translateX(-50%) translateY(100%);
+  color: black;
+}
+
+.machine-info-cards-container .info-card .icon:hover .svg-inline--fa {
+  transform: translateX(-50%) translateY(-200%);
+}
+
+.machine-info-cards-container .info-card .icon:hover .svg-inline--fa:last-child {
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.machine-info-cards-container .info-card h1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.machine-info-cards-container .info-card p {
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 3px;
+}
+
+@keyframes online-shadow {
+
+  0%,
+  20% {
+    box-shadow: 0px 0px 1px 0px rgb(101, 202, 101);
+  }
+
+  100% {
+    box-shadow: 0px 0px 1px 5px rgba(0, 128, 0, 0);
+  }
+}
+
+@keyframes offline-shadow {
+
+  0%,
+  20% {
+    box-shadow: 0px 0px 1px 0px rgb(202, 105, 105);
+  }
+
+  100% {
+    box-shadow: 0px 0px 1px 5px rgba(128, 0, 0, 0);
+  }
+}
+
+.block-container .status.online {
+  width: 8px;
+  height: 8px;
+  background-color: rgb(130, 255, 130);
+  border-radius: 100px;
+  margin-right: 10px;
+  margin-top: 1px;
+  animation: online-shadow 2.5s infinite
+}
+
+.block-container .status.offline {
+  width: 8px;
+  height: 8px;
+  background-color: rgb(230, 49, 49);
+  border-radius: 100px;
+  margin-right: 10px;
+  margin-top: 1px;
+  animation: offline-shadow 2.5s infinite;
+}

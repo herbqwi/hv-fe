@@ -1,0 +1,22 @@
+.create-election .content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.create-election .content .button {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: 60%;
+  height: 35px;
+  margin-top: 5px;
+}
+
+.create-election .content .button:disabled {
+  background-color: rgb(48, 48, 48);
+}
+
+.create-election .content>h1 {
+  margin-bottom: 20px;
+}
